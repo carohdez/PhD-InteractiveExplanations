@@ -1,0 +1,112 @@
+2020-07-22 11:05:00,179 ERROR Error loading index page: 'condition'
+2020-07-22 11:05:51,715 ERROR Error loading index page: 'condition'
+2020-07-22 11:06:33,796 ERROR Error loading index page: 'condition'
+2020-07-22 11:06:38,627 ERROR Error loading index page: 'workerID'
+2020-07-22 11:08:14,399 ERROR Error loading index page: 'workerID'
+2020-07-22 11:08:35,560 ERROR Error loading index page: 'workerID'
+2020-07-22 11:09:27,029 ERROR Error loading index page: 'workerID'
+2020-07-22 11:09:29,865 ERROR Error loading index page: 'workerID'
+2020-07-22 11:10:06,660 ERROR Error loading index page: 'workerID'
+2020-07-22 11:10:20,746 ERROR Error loading index page: (sqlite3.OperationalError) no such table: action
+[SQL: INSERT INTO action (action_type, page, feature, description, date, "workerID", "userID", condition) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, 'hotel list come back', '2020-07-22 09:10:20.745927', '1', 160, '1')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:46:14,633 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-22 09:46:14.633459', '1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:46:51,283 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'aspects', None, '', '2020-07-22 09:46:51.283331', '1', 160, '1', 76083, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:48:45,561 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-22 09:48:45.560415', '1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:49:08,994 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'aspects', None, '', '2020-07-22 09:49:08.993030', '1', 160, '1', 76083, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:49:56,666 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-22 09:49:56.665587', '1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:49:57,974 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'aspects', None, '', '2020-07-22 09:49:57.974474', '1', 160, '1', 76083, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:51:32,862 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-22 09:51:32.861056', '1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:51:45,686 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-22 09:51:45.685705', '1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 11:51:47,275 ERROR Error logging action index page: (sqlite3.OperationalError) table actions has no column named back
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'aspects', None, '', '2020-07-22 09:51:47.275151', '1', 160, '1', 76083, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-22 12:48:45,564 ERROR Error loading aspects page: list index out of range
+2020-07-22 12:48:59,205 ERROR Error loading aspects page: list index out of range
+2020-07-22 15:41:34,349 ERROR Error loading index page: 'list' object has no attribute 'loc'
+2020-07-22 15:45:50,350 ERROR Error logging action index page: 'condition'
+2020-07-22 15:52:38,598 ERROR Error Processing user preferences: must be str, not list
+2020-07-22 15:52:38,601 ERROR Error logging action index page: 'condition'
+2020-07-22 15:54:10,795 ERROR Error logging action index page: 'condition'
+2020-07-22 15:55:40,992 ERROR Error logging action index page: 'condition'
+2020-07-22 15:56:48,941 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price']
+2020-07-22 15:56:48,968 ERROR Error Processing user preferences: 'workerID'
+2020-07-22 15:56:48,968 ERROR Error logging action index page: 'condition'
+2020-07-22 15:59:21,481 ERROR Error Processing user preferences: 'workerID'
+2020-07-22 15:59:21,482 ERROR Error logging action index page: 'condition'
+2020-07-22 16:00:19,498 ERROR Error Processing user preferences: 'workerID'
+2020-07-22 16:00:19,499 ERROR Error logging action index page: 'condition'
+2020-07-22 16:00:38,150 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price']workerID:A1
+2020-07-22 16:00:38,177 ERROR Error Processing user preferences: must be str, not int
+2020-07-22 16:00:38,177 ERROR Error logging action index page: 'condition'
+2020-07-22 16:02:28,530 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price']workerID:A1
+2020-07-22 16:02:28,574 ERROR Error loading index page: must be str, not int
+2020-07-22 16:03:24,400 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:03:24,423 ERROR Error loading index page: must be str, not int
+2020-07-22 16:04:26,479 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:04:26,508 ERROR Error loading index page: must be str, not int
+2020-07-22 16:05:06,600 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:05:06,622 ERROR Error loading index page: must be str, not int
+2020-07-22 16:06:33,183 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:06:33,203 ERROR Error logging action index page: 'condition'
+2020-07-22 16:09:39,270 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:09:39,299 ERROR Error logging action index page: 'condition'
+2020-07-22 16:10:08,051 INFO features from survey: ['food', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:10:08,073 ERROR Error logging action index page: 'condition'
+2020-07-22 16:15:30,058 INFO features from survey: ['food', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:15:30,082 ERROR Error logging action index page: 'condition'
+2020-07-22 16:16:07,410 INFO features from survey: ['room', 'facilities', 'staff', 'location', 'price'], workerID:A1
+2020-07-22 16:16:07,431 ERROR Error logging action index page: 'condition'
+2020-07-23 11:20:07,339 ERROR Error loading index page: local variable 'e' referenced before assignment
+2020-07-23 11:20:27,573 ERROR Error logging action index page: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-23 09:20:22.519032', 'A1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-23 11:20:41,328 ERROR Error logging action index page: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'aspects', None, '', '2020-07-23 09:20:36.273589', 'A1', 160, '1', 76083, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-23 11:20:41,331 ERROR Error loading aspects page: unsupported operand type(s) for /: 'int' and 'NoneType'
+2020-07-23 11:20:49,055 ERROR Error logging action index page: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO actions (action_type, page, feature, description, date, "workerID", "userID", condition, "hotelID", "reviewID", back) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('load', 'index', None, '', '2020-07-23 09:20:44.003719', 'A1', 160, '1', None, None, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+2020-07-23 11:36:28,752 ERROR Error loading index page: unsupported operand type(s) for |: 'bool' and 'str'
+2020-07-23 11:37:42,395 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-23 11:40:03,817 ERROR Error logging action index page: name 'back' is not defined
+2020-07-23 11:42:16,457 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-23 12:58:30,451 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-23 12:59:08,934 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-23 13:19:21,973 ERROR Error logging action index page: name 'back' is not defined, workerID:A1
+2020-07-23 13:19:27,850 ERROR Error logging action index page: name 'back' is not defined, workerID:A1
+2020-07-24 09:11:30,131 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-24 09:16:03,139 INFO features from survey: ['room', 'facilities', 'price', 'bathroom', 'location'], workerID:A1
+2020-07-24 11:07:26,994 INFO features from survey: ['facilities', 'room', 'location', 'price', 'ambience'], workerID:A1
+2020-07-24 11:09:03,081 INFO features from survey: ['comfort', 'room', 'location', 'price', 'ambience'], workerID:A1
+2020-07-24 11:10:16,277 INFO features from survey: ['checking', 'room', 'location', 'price', 'ambience'], workerID:A1

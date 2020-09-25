@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Hotel results</title>
+<style>
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Hotel search results: </h1>
+
+    {% if hotels|length < 1 %}
+    No tasks. Create one.
+    {% else %}
+    <table>
+        <br>
+
+        {% for hotel in hotels %}
+        {% set aux_id = hotel.hotelID|string %}
+        {% set aux_id=aux_id[-1] %}
+        <tr>
+<!--            <td>{{ hotel.hotelID}}</td>-->
+            <td><img src="/img/hotels/room{{aux_id}}.jpg" width="100" height="80"> </td>
+            <td><b><a href="hotel_general/{{hotel.hotelID}}">Hotel {{ hotel.name}}</a><b>
+                <br> <img src="/img/rating/{{ hotel.stars_file}}" width="95" height="20">
+                <br>
+            </td>
+             <td><img src="/img/green_th.jpg" width="25" height="25"> </td>
+            <td>{{ hotel.explanation}} <br><font size="2" face="sans-serif" >({{ hotel.num_reviews}} reviews)</font>
+                <br><a href="aspects/{{hotel.hotelID}}&0">More on why recommended</a>
+            </td>
+            <td align="center"><font size="4" face="sans-serif" >${{hotel.price}}</font>
+<!--                <br><img src="/img/book.png" width="110" height="40"> </td>-->
+                <div class="container">
+                    <img src="/img/book_no_title4.png" width="110" height="40" >
+                <div class="centered"><a href="../?hotelID={{hotel.hotelID}}&book=yes"><b>Book Hotel</b></a></div>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    <form action="/" method = "POST">
+<!--        <input type="text" name="content" id="content">-->
+<!--        <input type="submit" value="Add task">-->
+    </form>
+
+<div>
+{% endblock %}
